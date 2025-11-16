@@ -1,1 +1,1 @@
-echo "Installing dotfiles..."
+source .aliases
