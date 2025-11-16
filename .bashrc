@@ -1,1 +1,1 @@
-source .aliases
+source $HOME/dotfiles/.aliases
