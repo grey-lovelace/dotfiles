@@ -5,4 +5,4 @@ ln -s "$DOTFILES_DIR/.bash_aliases" "$HOME/.bash_aliases"
 
 # Install Oh My Posh
 curl -s https://ohmyposh.dev/install.sh | bash -s
-echo 'eval "$(oh-my-posh init bash)"' >> $HOME/.bashrc
+echo 'eval "$(oh-my-posh init bash --config 'https://raw.githubusercontent.com/grey-lovelace/oh-my-posh-themes/refs/heads/master/grey-default-theme.omp.json')"' >> $HOME/.bashrc
