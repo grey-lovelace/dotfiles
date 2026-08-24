@@ -6,6 +6,7 @@ alias gboot="./gradlew bootRun"
 alias ns="npm run start"
 alias dockerkill="docker kill $(docker ps -q)"
 alias gc="git commit -m $*"
+alias gitsub="git submodule update --init --recursive --remote"
 
 gitDeleteAllLocalButCurrent() {
     currentBranch=$(git branch --show-current)
